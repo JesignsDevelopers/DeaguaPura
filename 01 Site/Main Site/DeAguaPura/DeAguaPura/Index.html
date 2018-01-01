@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link href="StyleSheetMain.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>De Aqua Pura</title>
+    <link rel="icon" type="imgage/png" href="Logo.png" />
+    <link href="IndexStyle.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <center>
+            <img class="imgname1" src="name.png" />
+            <img class="imgname2" src="name.png" />
+            <div class="head1line"></div>
+        </center>
+    </header>
+    <div class="body1">
+
+        <!-- Menu-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="getintouch.html">Get In Touch</a>
+                </li>
+                <li>
+                    <a href="Products.html">Products</a>
+                </li>
+                <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="findus.html">Find Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="handle" aira-lable="Left Align">
+            Menu
+        </div>
+        <!------------------------------->
+        <center>
+            <div class="slogan">
+
+                <h1>
+                    <!--<img id="imglog"style="height: 50px;width: auto;" src="Logo.png" />-->
+                    The Brighter Side Of Life
+                    <!--<img id="imglog" style="height: 50px;width:auto;"src="Logo.png" />-->
+                </h1>
+            </div>
+            <!--mobile-->
+            <div class="sloganlinetop"></div>
+            <div class="slogan2">
+                <h1>The Brighter Side Of Life </h1>
+                
+            </div>
+            <hr />
+            <center>
+                <h2>
+                    We Specilize in
+                </h2>
+                
+            </center>
+
+        </center>
+        <div class="specification">
+            <div class="spes">
+
+                <p class="lft">&diams; Labeling</p>
+                <p class="rgt">&diams; Bottling</p>
+                <br />
+                <p class="lft">&diams; Installation</p>
+                <p class="rgt">&diams; Repairs</p>
+                <br />
+                <p class="lft">&diams; Services</p>
+                <p class="rgt">&diams; Filtration System</p>
+                <br />
+                <p class="lft">&diams; Purified Ice</p>
+                <p class="rgt">&diams; Filters</p>
+            </div>
+            <center>
+                <div class="spes2">
+
+                    <p>&diams; Labeling</p>
+                    <p>&diams; Bottling</p>
+
+                    <p>&diams; Installation</p>
+                    <p>&diams; Repairs</p>
+
+                    <p>&diams; Services</p>
+                    <p>&diams; Filtration System</p>
+
+                    <p>&diams; Purified Ice</p>
+                    <p>&diams; Filters</p>
+                </div>
+            </center>
+        </div>
+
+    </div>
+    <script>
+        $(".handle").on("click", function () {
+            $("nav ul").toggleClass("showing")
+        });
+    </script>
+</body>
+</html>

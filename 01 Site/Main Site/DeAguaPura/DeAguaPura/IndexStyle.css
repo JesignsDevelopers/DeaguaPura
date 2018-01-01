@@ -1,0 +1,108 @@
+﻿hr{
+    width:80%;
+    color:white;
+    height:1px;
+}
+ 
+.slogan {
+    font-size: 170%;
+    font-family: 'Bradley Hand ITC';
+    color: hotpink;
+    text-shadow: 10px 3px 10px darkgray;
+    height: 140px;
+}
+
+    .slogan h1 {
+        padding-top: 40px;
+    }
+
+.slogan2 {
+    display: none;
+    font-size: 70%;
+    font-family: 'Bradley Hand ITC';
+    color: hotpink;
+    text-shadow: 10px 5px 10px darkgray;
+    height: 70px;
+}
+
+    .slogan2 h1 {
+        padding-top: 25px;
+    }
+
+h2 {
+}
+
+.wespec {
+    margin: -2px;
+   height:4px;
+   background-color:gray
+}
+.slogantopline {
+background-color:gray;
+height:2px;
+}
+
+
+@media screen and (max-width:580px) {
+    .slogan {
+        display: none;
+    }
+
+    .slogan2 {
+        display: block;
+    }
+}
+
+.spes p {
+    display: inline-grid;
+}
+
+#imglog2 {
+    display: none;
+}
+
+@media screen and (max-width:777px) {
+    #imglog {
+        display: none;
+    }
+
+    #imglog2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:643px) {
+    .slogan {
+        height: 175px;
+        
+    }
+
+    .spes {
+        display: none;
+    }
+}
+
+.lft {
+    color: red;
+    padding-left: 25%;
+}
+
+.rgt {
+    color: blue;
+    float: right;
+    padding-right: 25%;
+}
+
+
+
+.spes2 {
+    display: none;
+}
+
+@media screen and (max-width:580px) {
+    .spes2 {
+        display: block;
+    }
+}
+.specification{
+}
