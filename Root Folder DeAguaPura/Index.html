@@ -2,13 +2,12 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-    <link href="StyleSheetMain.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/StyleSheetMain.css">
+    <link rel="stylesheet" type="text/css" href="css/IndexStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
     <title>De Aqua Pura</title>
     <link rel="icon" type="imgage/png" href="Logo.png" />
-    <link href="IndexStyle.css" rel="stylesheet" />
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -16,8 +15,8 @@
 
     <header>
         <center>
-            <img class="imgname1" src="name.png" />
-            <img class="imgname2" src="name.png" />
+            <img class="imgname1" src="img/name.png" />
+            <img class="imgname2" src="img/Logo.png" />
             <div class="head1line"></div>
         </center>
     </header>
@@ -43,7 +42,7 @@
         <div class="handle" aira-lable="Left Align">
             Menu
         </div>
-        <!------------------------------->
+        <!-- -------------------------- -->
         <center>
             <div class="slogan">
 
@@ -61,8 +60,8 @@
             </div>
             <hr />
             <center>
-                <h2>
-                    We Specilize in
+                <h2 class="wsi">
+                    WE SPECIALISE IN
                 </h2>
                 
             </center>
@@ -101,11 +100,31 @@
             </center>
         </div>
 
+ <div class="Space"></div>
+
     </div>
     <script>
         $(".handle").on("click", function () {
             $("nav ul").toggleClass("showing")
         });
     </script>
+
+<footer>
+  <nav>
+    <ul>
+       <li><a href="index.html">HOME</a></li>       
+        <li><a href="Products.html">PRODUCTS</a></li>
+        <li><a href="Gallery.html">GALLERY</a>     
+       <li><a href="getintouch.html">GET IN TOUCH</a></li>      
+    </ul>
+   </nav> 
+       
+     <div class="FB1">
+       <a class="FB" href="https://www.facebook.com/" target="_blank">
+       <img src="img/facebook-icon.png" class="facebook-icon" alt="Facebook Link" width="260" height="90" border="0" >
+       </a>
+     </div>
+</footer>
+
 </body>
 </html>

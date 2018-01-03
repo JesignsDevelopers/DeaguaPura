@@ -83,14 +83,16 @@ height:2px;
 }
 
 .lft {
-    color: red;
+    color: white;
     padding-left: 25%;
+    font-size: 19px;
 }
 
 .rgt {
-    color: blue;
+    color: white;
     float: right;
     padding-right: 25%;
+    font-size: 19px;
 }
 
 
@@ -105,4 +107,8 @@ height:2px;
     }
 }
 .specification{
+}
+
+.wsi {
+    color: white;
 }

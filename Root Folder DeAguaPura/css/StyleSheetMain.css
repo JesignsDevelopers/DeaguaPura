@@ -1,5 +1,11 @@
-﻿body {
-    background-image: url('Media/soft2.jpg');
+﻿
+.Space {
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background-image: url('../img/soft2.jpg');
 }
 body {
     margin: 0;
@@ -97,8 +103,9 @@ nav ul {
 }
 
 footer {
-    font-size: 110%;
-    text-align: right;
+    font-size: 100%;
+    
+    margin-right: 20em;
     color: blue;
 }
 
@@ -125,3 +132,45 @@ footer {
 }
 
 
+/*-----------FOOTER------------*/
+
+
+footer nav {
+    float: left;
+    padding-left: 12em;
+}
+
+footer nav ul {
+  }
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    list-style: none;
+    padding-right: 2px;
+}
+
+footer nav ul li a {
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color:  #3399cc;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+
+.facebook-icon {
+    float: right;    
+}
+
+.FB1 {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
