@@ -4,8 +4,10 @@
     height: 100px;
 }
 
-body {
+.canback {
     background-image: url('../img/soft2.jpg');
+  
+    background-repeat: none;
 }
 body {
     margin: 0;
@@ -26,7 +28,7 @@ a {
 nav ul {
     background-color: transparent;
     overflow: hidden;
-    color: white;
+    color: black;
     padding: 0;
     text-align: center;
     margin: 0;
