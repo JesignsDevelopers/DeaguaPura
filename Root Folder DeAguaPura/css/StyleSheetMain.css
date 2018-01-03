@@ -1,0 +1,176 @@
+﻿
+.Space {
+    width: 100%;
+    height: 100px;
+}
+
+body {
+    background-image: url('../img/soft2.jpg');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.head1line{
+    background-color:white;
+    width:80%;
+    height:1px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    background-color: transparent;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-heigt 2s;
+    -ms-transition: max-heigt 2s;
+    -moz-transition: max-heigt 2s;
+    -o-transition: max-heigt 2s;
+    transition: max-heigt 2s;
+}
+
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+    }
+
+        nav ul li:hover {
+            color: ButtonShadow;
+        }
+
+.handle {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width:580px ) {
+    nav ul {
+        max-height: 0px;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .handle {
+        display: block;
+    }
+
+    .imgname {
+        object-fit: initial;
+    }
+}
+
+.h1m {
+    display: none;
+    color: black;
+}
+
+.h12 {
+    color: red;
+    font-size: 2em;
+}
+
+@media screen and (max-width:764px) {
+    .h12 {
+        display: none;
+    }
+
+    .h1m {
+        display: block;
+    }
+}
+
+footer {
+    font-size: 100%;
+    
+    margin-right: 20em;
+    color: blue;
+}
+
+    footer a:hover {
+        color: red;
+    }
+
+.imgname2 {
+    display: none;
+}
+
+@media screen and (max-width:600px ) {
+
+    .imgname1 {
+        display: none
+    }
+
+    .imgname2 {
+        display: block;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
+/*-----------FOOTER------------*/
+
+
+footer nav {
+    float: left;
+    padding-left: 12em;
+}
+
+footer nav ul {
+  }
+
+footer nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    list-style: none;
+    padding-right: 2px;
+}
+
+footer nav ul li a {
+    font-family: arial;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color:  #3399cc;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+
+.facebook-icon {
+    float: right;    
+}
+
+.FB1 {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
