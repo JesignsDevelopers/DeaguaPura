@@ -1,0 +1,86 @@
+/* ===================== FONTS =================== */
+@font-face {
+    font-family: SSPU;
+    src: url('../../fonts/Sweet Sensations Personal Use.ttf');  
+}
+@font-face {
+    font-family: AI;
+    src: url('../../fonts/AverItalic.ttf');
+}
+@font-face {
+    font-family: BD;
+    src: url('../../fonts/Beillingsday.otf');
+}
+@font-face {
+    font-family: ADD;
+    src: url('../../fonts/ADDCN___.TTF');
+}
+/* ============================================== */
+
+/* ================== SPACE DIVS ================ */
+.space {
+	width: 100%;
+	height:50px;
+	overflow: hidden;
+}
+/* ============================================== */
+
+.body {
+	width: 960px;
+	height: auto;
+	margin-left: 13em;
+}
+
+/* =========== THE STYLING FOR ADRESS =========== */
+.Adress {
+	float: left;
+	width: 470px;	
+}
+.Adress h2 {
+	text-align: center;
+	font-family: SSPU;
+	color: blue;
+	font-size: 50px;
+	
+}
+.Adress p {
+	text-align: center;
+	font-family: AI;
+	color: blue;
+	font-size: 25px;
+	margin-top: -10px;
+	
+}
+/* ============================================== */
+/* ====== THE STYLING FOR THE DIRECTIONS ======== */
+.Di {
+	float: left;
+	width: 470px;
+	padding-right: 20px;
+}
+.Di h2 {
+	text-align: center;
+	font-family: SSPU;
+	color: blue;
+	font-size: 50px;
+	
+}
+.Di p {
+	text-align: center;
+    font-family: AI;
+	color: blue;	
+	font-size: 25px;
+	margin-top: -10px;
+	
+}
+/* ============================================== */
+
+/* ========== THE STYLING FOR THE MAP =========== */
+#map {
+        height: 400px;
+        width: 100%;
+        background-color: blue;
+        
+        overflow: hidden;
+       }
+/* ============================================== */
