@@ -1,40 +1,122 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gallery</title>
-    <link rel="icon" type="image/png" href="Logo.png" />
+        <title>De Aqua Pura</title>
+    <link rel="icon" type="imgage/png" href="Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link href="StyleSheetMain.css" rel="stylesheet" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/StyleSheetMain.css">
+    <link rel="stylesheet" type="text/css" href="css/Index/IndexStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/Index/CanvasStyle.css">  
+    <link rel="stylesheet" type="text/css" href="css/Index/AboutUsStyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
+    <!--
+    ==========================COMENT BOX================
+    
+    ====================================================
+    -->    
+
 </head>
 <body>
-
+    <!--===================CANVAS============-->
+    <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/02 Media/IMG-20160924-WA0012.jpg" style="width:100%;height: max 5em;">
+                <!--<div class="text">Caption Text</div>-->
+            </div>
+            <div class="mySlides fade">
+                <img src="img/02 Media/IMG-20160924-WA0003.jpg" style="width:100%; height: max 5em;">
+                <!--<div class="text">Caption Two</div>-->
+            </div>
+            <div class="mySlides fade">
+                <img src="img/02 Media/IMG-20160924-WA0022.jpg" style="width:100%;height: max 5em;">
+                <!--<div class="text">Caption Three</div>-->
+            </div>
+        </div>
+<br>
+<div style="text-align:center; padding-top: 1.2em;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<br>
+<!--==================lOGO MOBILE ====================-->
     <header>
         <center>
-            <img class="imgname1" src="name.png" />
-            <img class="imgname2" src="name.png" />
-            <div class="head1line"></div>
-        </center>
+            <img class="imgname2" src="img/Logo.png" />
     </header>
+<!--=====================================-->    
+      <div class="body1">
 
-    <!-- Menu-->
-    <nav>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="getintouch.html">Get in Touch</a></li>
-            <li><a href="Products.html">Products</a></li>
-            <li><a href="findus.html">Find Us</a></li>
-        </ul>
-    </nav>
-    <div class="handle" aira-lable="Left Align">
-        <img src="Media/threelines.png" style="height:20px;width:auto; margin-bottom:-3px" />  Menu
-    </div>
+<!--====================Menu============-->
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="getintouch.html">Get In Touch</a></li>                                         
+                <li><a href="findus.html">Find Us</a></li>
+            </ul>
+        </nav>
+        <hr class="primary">
+        <div class="handle" aira-lable="Left Align">
+            Menu
+        </div>
+<!--================================-->
+<!--============NAME OF PLACE====================-->
+        <center>
+            <img class="imgname1" src="img/name.png" />
+            <h1></h1>
+        </center>
+            <hr class="primary">
+<!--================================-->
 
-    <script>
+<script>
+//THIS SCRIPT IS FOR THE CONTAINER ==================================================
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-red";
+}
+//======================================================================
+//====================DROP DOWN MENU====================================
         $(".handle").on("click", function () {
             $("nav ul").toggleClass("showing")
-        });
-    </script>
+        });    
+//======================================================================
+//===================FOR THE SLIDESHOW CANVAS===========================        
+var slideIndex = 0;
+showSlides();
 
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+//======================================================================
+</script>
 </body>
 </html>

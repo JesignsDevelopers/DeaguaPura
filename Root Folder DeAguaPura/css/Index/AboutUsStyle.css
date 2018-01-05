@@ -1,0 +1,48 @@
+/* ===================== FONTS =================== */
+@font-face {
+    font-family: SSPU;
+    src: url('../../fonts/Sweet Sensations Personal Use.ttf');  
+}
+@font-face {
+    font-family: AI;
+    src: url('../../fonts/AverItalic.ttf');
+}
+@font-face {
+    font-family: BD;
+    src: url('../../fonts/Beillingsday.otf');
+}
+/* ============================================== */
+
+/* ====== THE MAIN ABOUT US (H2) STYLING ======== */
+.AUH2 {
+   font-family: 'Playball', cursive;
+}
+/* ============================================== */
+
+/* ====== THE STYLING FOR THE ITEMS LISTED ====== */
+#MainLI {
+	text-align: center;
+	font-family: BD;
+	font-size: 20px;
+	color: #000066;
+}
+/* ============================================== */
+
+/* =========== THE DROP DOWN STYLING ============ */
+.ProductsDropDown {
+	color: blue;
+	text-align: center;
+}
+
+.ProductsDropDown h2 {
+	font-family: SSPU;
+	font-size: 40px;
+  
+}
+
+.ProductsDropDown p {
+	font-family: AI;
+	font-size: 25px;
+	margin-top: -8px;
+}
+/* ============================================== */
