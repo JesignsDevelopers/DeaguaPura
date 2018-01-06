@@ -26,9 +26,9 @@
 /* ============================================== */
 
 .body {
-	width: 960px;
+	width: 100%;
 	height: auto;
-	margin-left: 13em;
+	margin-left: 
 }
 
 /* =========== THE STYLING FOR ADRESS =========== */
@@ -39,7 +39,7 @@
 .Adress h2 {
 	text-align: center;
 	font-family: SSPU;
-	color: blue;
+	color: #122074;
 	font-size: 50px;
 	
 }
@@ -61,7 +61,7 @@
 .Di h2 {
 	text-align: center;
 	font-family: SSPU;
-	color: blue;
+	color: #122074;
 	font-size: 50px;
 	
 }
@@ -78,9 +78,8 @@
 /* ========== THE STYLING FOR THE MAP =========== */
 #map {
         height: 400px;
-        width: 100%;
-        background-color: blue;
-        
+        width: 99%;
+        background-color: grey;        
         overflow: hidden;
        }
 /* ============================================== */
