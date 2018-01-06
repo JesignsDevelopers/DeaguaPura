@@ -15,16 +15,17 @@
 
 /* ====== THE MAIN ABOUT US (H2) STYLING ======== */
 .AUH2 {
+	font-size: 50px;
    font-family: 'Playball', cursive;
+   color:red;
 }
 /* ============================================== */
 
 /* ====== THE STYLING FOR THE ITEMS LISTED ====== */
 #MainLI {
 	text-align: center;
-	font-family: BD;
 	font-size: 20px;
-	color: #000066;
+	color: #122074;
 }
 /* ============================================== */
 
@@ -35,8 +36,9 @@
 }
 
 .ProductsDropDown h2 {
-	font-family: SSPU;
+font-family: 'Playball', cursive;
 	font-size: 40px;
+	color black;
   
 }
 
@@ -46,3 +48,10 @@
 	margin-top: -8px;
 }
 /* ============================================== */
+.titlesh2
+{
+	color:#a16767;
+}
+#MainLI{
+font-family: 'Playball', cursive;
+}

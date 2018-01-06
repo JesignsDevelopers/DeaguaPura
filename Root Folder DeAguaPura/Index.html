@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/Index/IndexStyle.css">
     <link rel="stylesheet" type="text/css" href="css/Index/CanvasStyle.css">  
     <link rel="stylesheet" type="text/css" href="css/Index/AboutUsStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/Index/Mobile.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
@@ -47,7 +48,15 @@
     -->    
 
 </head>
-<body>
+<body style="    background-image: url('soft2.jpg');  ">
+  <center>
+  <div class="w3-card-4 w3-margin" style="width:70%; align-content:center;background-image: url('img/index.jpg');  ">
+  <!--==================lOGO MOBILE ====================-->
+    <header>
+        <center>
+            <img class="imgname2" src="img/Logo.png" />
+    </header>
+<!--=====================================-->   
     <!--===================CANVAS============-->
     <div class="slideshow-container">
             <div class="mySlides fade">
@@ -70,12 +79,7 @@
   <span class="dot"></span> 
 </div>
 <br>
-<!--==================lOGO MOBILE ====================-->
-    <header>
-        <center>
-            <img class="imgname2" src="img/Logo.png" />
-    </header>
-<!--=====================================-->    
+ 
       <div class="body1">
 
 <!--====================Menu============-->
@@ -102,41 +106,41 @@
 <!--=============ABOUT US CONTAINER===================-->
         
 <div class="w3-container">
-  <center><h2 class="AUH2">ABOUT US</h2></center>
-
+  <center><h2 class="AUH2">About Us</h2></center>
+              <hr class="primary">
   <div class="w3-row">
     <a href="javascript:void(0)" onclick="openCity(event, 'Labeling');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Labeling </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Labeling </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Bottling');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Bottling </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Bottling </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Installation');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Installation </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Installation </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Repairs');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Repairs  </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Repairs </div>
     </a>
-        <a href="javascript:void(0)" onclick="openCity(event, 'Services');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Services  </div>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Services');">
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Services  </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'FiltrationSystem');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Filtration System </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Filtration System </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Purified');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Purified  </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Purified  </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Filters');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Filters   </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Filters   </div>
     </a>
     <a href="javascript:void(0)" onclick="openCity(event, 'Ice');">
-      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Ice   </div>
+      <div id="MainLI" class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding" class="ablist">Ice   </div>
     </a>
   </div>
   
   <div class="ProductsDropDown">
   <div id="Labeling" class="w3-container city" style="display:none">
-    <h2>Labeling</h2>
+    <h2 class= "titlesh2">Labeling</h2>
     <p>We Provide A Wide Variety Of Customized Branding To Suit Your Needs.</p>
   </div>
 
@@ -153,7 +157,7 @@
     <h2>Repairs</h2>
     <p>If It`s Broken We Can Repair It.</p>
   </div>
-  <div id="Services " class="w3-container city" style="display:none">
+  <div id="Services" class="w3-container city" style="display:none">
     <h2>Services</h2>
     <p>Come And Experiance Our World Class Service.</p>
   </div>
@@ -222,5 +226,7 @@ function showSlides() {
 }
 //======================================================================
 </script>
+</div>
+</center>
 </body>
 </html>

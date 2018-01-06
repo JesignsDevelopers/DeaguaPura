@@ -1,4 +1,7 @@
-﻿hr{
+﻿body{
+    background-image: url('soft2.jpg');  
+ }
+hr{
     width:80%;
     color:white;
     height:1px;
