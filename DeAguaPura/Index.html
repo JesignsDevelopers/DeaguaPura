@@ -37,12 +37,6 @@
     || ADDED THURSDAY AT 01:04:30 AM
     
                           ++++++++UPDATE+++++++++
-    
-    All The Aboe Is Done Except Sorting The Style Sheets Was Not Sure What To Do. Will Whatsapp You Then Will Do It As Soon As You Send The Code Back To Me.
-
-    Could You Plase Make The Find Us Page Mobile Freindly?
-
-    Please Let Know What More I Can Do.
 
     ====================================================
     -->    
@@ -140,93 +134,50 @@
   
   <div class="ProductsDropDown">
   <div id="Labeling" class="w3-container city" style="display:none">
-    <h2>Labeling</h2>
+    <h2 class="prdli">Labeling</h2>
     <p>We Provide A Wide Variety Of Customized Branding To Suit Your Needs.</p>
   </div>
 
   <div id="Bottling" class="w3-container city" style="display:none">
-    <h2>Bottling</h2>
+    <h2 class="prdli">Bottling</h2>
     <p>We Bottle From Small To Large.</p> 
   </div>
 
   <div id="Installation" class="w3-container city" style="display:none">
-    <h2>Installation</h2>
+    <h2 class="prdli">Installation</h2>
     <p>We Strive To Provide An Outstanding Installation Service. Because When Our Clients Are Happy So are We. </p>
   </div>
     <div id="Repairs" class="w3-container city" style="display:none">
-    <h2>Repairs</h2>
+    <h2 class="prdli">Repairs</h2>
     <p>If It`s Broken We Can Repair It.</p>
   </div>
   <div id="Services" class="w3-container city" style="display:none">
-    <h2>Services</h2>
+    <h2 class="prdli">Services</h2>
     <p>Come And Experiance Our World Class Service.</p>
   </div>
 
   <div id="FiltrationSystem" class="w3-container city" style="display:none">
-    <h2>Filtration System</h2>
+    <h2 class="prdli">Filtration System</h2>
     <p>We Provide Top Of The Range Filtration Systems.</p> 
   </div>
 
   <div id="Purified" class="w3-container city" style="display:none">
-    <h2>Purified</h2>
+    <h2 class="prdli">Purified</h2>
     <p>Purified Water Is The Best Way To Go For You And Your Family .</p>
   </div>
     <div id="Filters" class="w3-container city" style="display:none">
-    <h2>Filters</h2>
+    <h2 class="prdli">Filters</h2>
     <p>We Sell A Wide Range Of Filters.</p>
   </div>
     <div id="Ice" class="w3-container city" style="display:none">
-    <h2>Ice</h2>
+    <h2 class="prdli">Ice</h2>
     <p>We Sell Ice In Small And Large Scale.</p>
   </div>
   </div>
 </div>
-
-<!--==========================================================================================-->
-<script>
-//THIS SCRIPT IS FOR THE CONTAINER ==================================================
-function openCity(evt, cityName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.firstElementChild.className += " w3-border-red";
-}
-//======================================================================
-//====================DROP DOWN MENU====================================
-        $(".handle").on("click", function () {
-            $("nav ul").toggleClass("showing")
-        });    
-//======================================================================
-//===================FOR THE SLIDESHOW CANVAS===========================        
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-//======================================================================
-</script>
 </div>
 </center>
+<script type="text/javascript" src="Scripts\IndexScript.js"></script> 
+<script type="text/javascript" src="Scripts\Jquery-3.2.1.js"></script> 
 </body>
 </html>
